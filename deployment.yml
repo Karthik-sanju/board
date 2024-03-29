@@ -16,6 +16,7 @@ spec:
       containers:
       - name: board
         image: karthik142/boardgame
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000   # Use port 3000
 
